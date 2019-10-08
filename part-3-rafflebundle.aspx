@@ -11,6 +11,8 @@
         <section>
             <h2>Enter the number of tickets you want to order:</h2>
             <asp:TextBox runat="server" ID="tickets_ordered"></asp:TextBox>
+            <asp:RequiredFieldValidator runat="server" ControlToValidate="tickets_ordered" EnableClientScript="true"
+                ErrorMessage="Please enter the number of tickets you want to buy.."></asp:RequiredFieldValidator>
         </section>
 
         <section>

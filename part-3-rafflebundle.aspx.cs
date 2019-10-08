@@ -31,7 +31,6 @@ namespace N01329988_BonusAssignment
                         total = (ticket_number * 0.25);//calculating total amount
                         confirmation.InnerHtml += "Your total ticket(s) is " + ticket_number + " and your cost is $" + total + "cad<br>";
                     }
-                    
                     else if (ticket_number >= 51 && ticket_number <= 150)//to check for tickets number between 51 and 150 also included
                     {
                             confirmation.InnerHtml = " ";
@@ -43,10 +42,8 @@ namespace N01329988_BonusAssignment
                             }
                             confirmation.InnerHtml += "Your leftover is "+remainder+" ticket(s). That's " + ticket_number + "ticket(s)!<br>";
                             total = (ticket_number * 0.25);//calculating total amount
-                        confirmation.InnerHtml += "Your total ticket(s) is " + ticket_number + " and your cost is $" + total + "cad!<br>";
-                        }
-                    
-
+                            confirmation.InnerHtml += "Your total ticket(s) is " + ticket_number + " and your cost is $" + total + "cad!<br>";
+                    }
                     else if(ticket_number >= 151 && ticket_number <= 300)//to check for tickets number between 151 and 300 also included
                     {
                             confirmation.InnerHtml = " ";
@@ -59,8 +56,7 @@ namespace N01329988_BonusAssignment
                             confirmation.InnerHtml += "Your leftover is "+remainder+" ticket(s). That's " + ticket_number + "ticket(s)!<br>";
                             total = (ticket_number * 0.25);//calculating total amount
                         confirmation.InnerHtml += "Your total ticket(s) is " + ticket_number + " and your cost is $" + total + "cad!<br>";
-                        }
-                    
+                    }
                     else if(ticket_number >= 301)//to check for tickets number above 301 also included
                     {
                         confirmation.InnerHtml = " ";

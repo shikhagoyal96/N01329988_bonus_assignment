@@ -20,6 +20,7 @@
                 <asp:ListItem Value="sunday">Sunday</asp:ListItem> 
             </asp:CheckBoxList>
         </section>
+
         <section>
             <input type="submit" value="submit" />
         </section>
